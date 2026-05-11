@@ -48,8 +48,9 @@ O conjunto de dados contém informações dos clientes, como:
 customer-churn-analysis/
 │
 ├── data/
-├──── netflix_customer_churn.csv
-├──── netflix_clientes_churn_traduzido.csv
+│   ├── netflix_customer_churn.csv
+│   └── netflix_clientes_churn_traduzido.csv
+│
 ├── churn_analysis.ipynb
 ├── LICENSE
 └── README.md
