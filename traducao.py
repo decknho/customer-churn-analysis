@@ -68,4 +68,12 @@ df["regiao"] = df["regiao"].map({
     "Oceania": "Oceania"
 })
 
+df["dispositivo"] = df["dispositivo"].map({
+    "Mobile": "Celular",
+    "Tablet": "Tablet",
+    "Desktop": "Computador",
+    "TV": "TV",
+    "Laptop": "Notebook"
+})
+
 df.head(15)
