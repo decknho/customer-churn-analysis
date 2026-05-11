@@ -8,7 +8,6 @@ Este projeto tem como objetivo analisar o comportamento de churn dos clientes e 
 ## Tecnologias Utilizadas
 - Python
 - Pandas
-- NumPy
 - Matplotlib
 - Jupyter Notebook
 
@@ -17,11 +16,11 @@ Este projeto tem como objetivo analisar o comportamento de churn dos clientes e 
 ## Dataset
 O conjunto de dados contém informações dos clientes, como:
 - Gênero
-- Tipo de contrato
-- Tempo como cliente
+- Tipo de assinatura
 - Método de pagamento
 - Valor mensal
 - Status de churn
+- Entre outros atributos relevantes para a análise...
 
 ---
 
@@ -36,10 +35,10 @@ O conjunto de dados contém informações dos clientes, como:
 ---
 
 ## Principais Insights
-- Clientes com contrato mensal apresentaram maior taxa de churn.
-- Clientes novos tendem a cancelar mais.
-- Clientes casados aparentam ter menor taxa de churn.
-- Métodos de pagamento eletrônicos apresentaram maior ocorrência de cancelamento.
+- Clientes com assinatura padrão com anúncios apresentaram maior taxa de churn.
+- Clientes de entre 45 a 60 anos aparentam ter maior taxa de churn.
+- Clientes com baixo consumo da plataforma tendem a cancelar mais frequentemente.
+- Metodos de pagamento automáticos estão associados a menor taxa de churn.
 
 ---
 
@@ -49,8 +48,10 @@ O conjunto de dados contém informações dos clientes, como:
 customer-churn-analysis/
 │
 ├── data/
-├── images/
+├──── netflix_customer_churn.csv
+├──── netflix_clientes_churn_traduzido.csv
 ├── churn_analysis.ipynb
+├── LICENSE
 └── README.md
 ```
 
